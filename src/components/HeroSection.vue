@@ -25,7 +25,7 @@ const skills = [
         <div class="relative shrink-0 animate-fade-in-up">
           <div class="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden ring-2 ring-border-subtle shadow-2xl shadow-glow-violet/20">
             <img
-              src="/MyWebsite/images/profile.jpg"
+              src="/images/profile.jpg"
               alt="Bennit Strack"
               class="w-full h-full object-cover"
             />
@@ -98,7 +98,7 @@ const skills = [
               Contact
             </a>
             <a
-              href="/MyWebsite/Bennit_Strack_CV.pdf"
+              href="/Bennit_Strack_CV.pdf"
               target="_blank"
               data-umami-event="Resume Download"
               class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-bg-surface border border-border-subtle text-text-primary text-sm font-semibold hover:bg-bg-surface-hover hover:border-border-hover hover:-translate-y-0.5 transition-all duration-300"
