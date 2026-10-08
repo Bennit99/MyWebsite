@@ -15,7 +15,7 @@ export const projects = [
       'An AI-powered system for automated real-time commentary of foosball matches. Features a redesigned computer vision module using U-Net for more precise event detection and a Markov model for robustness against missing image data.',
     image: '/MyWebsite/images/kicker.jpg',
     tags: ['Python', 'PyTorch', 'U-Net', 'Computer Vision'],
-    url: '#',
+    url: '/MyWebsite/wip.html',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const projects = [
       'Automated extraction and visualization of key information from scientific papers. Combines NLP with knowledge graphs to efficiently structure and present complex content from academic publications.',
     image: '/MyWebsite/images/transformer.jpg',
     tags: ['Python', 'Transformer', 'NLP', 'Knowledge Graphs'],
-    url: '#',
+    url: '/MyWebsite/wip.html',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const projects = [
       'A volumetric analysis system for ocean eddies using 3D voxel networks to support oceanographic research. Combines neural networks with cone fitting for precise estimation of eddy volumes from oceanographic data.',
     image: '/MyWebsite/images/eddie.jpg',
     tags: ['Python', 'PyTorch', 'Voxel-Net', '3D Deep Learning'],
-    url: '#',
+    url: '/MyWebsite/wip.html',
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const projects = [
       'A prototype for automated analysis of aerial imagery for disaster management. Uses a fine-tuned YOLOv8 model to detect and classify building damage, enabling faster situation assessment after extreme events.',
     image: '/MyWebsite/images/bachelorarbeit.jpg',
     tags: ['Python', 'YOLOv8', 'Computer Vision', 'Object Detection'],
-    url: '#',
+    url: '/MyWebsite/wip.html',
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const projects = [
       'A neural network that recognizes fashion categories in Instagram images and analyzes their evolution for trend forecasting. Makes social media data usable for demand predictions in supply chain management.',
     image: '/MyWebsite/images/insta.jpg',
     tags: ['Python', 'YOLOv5', 'Deep Learning', 'Data Science'],
-    url: '#',
+    url: '/MyWebsite/wip.html',
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export const projects = [
       'Development and evaluation of resource-efficient ML models for captcha recognition on embedded devices. Focused on identifying open circles within complex visual captchas using lightweight U-Net architectures.',
     image: '/MyWebsite/images/captcha.jpg',
     tags: ['Python', 'TinyML', 'U-Net', 'Embedded Systems'],
-    url: '#',
+    url: '/MyWebsite/wip.html',
   },
   {
     id: 8,
