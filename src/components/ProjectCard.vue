@@ -22,7 +22,7 @@ const props = defineProps({
       <img
         :src="image"
         :alt="`Screenshot of ${title}`"
-        class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+        class="w-full h-full object-cover"
         loading="lazy"
       />
       <!-- Overlay gradient -->
