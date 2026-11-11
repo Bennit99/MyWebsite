@@ -1,6 +1,8 @@
 <script setup>
 import { siPython, siTypescript, siVuedotjs, siTailwindcss, siPytorch, siDocker, siGit } from 'simple-icons'
 
+const cvUrl = `${import.meta.env.BASE_URL}Bennit_Strack_CV.pdf`
+
 const skills = [
   { name: 'Python', icon: siPython.path, color: `#${siPython.hex}` },
   { name: 'TypeScript', icon: siTypescript.path, color: `#${siTypescript.hex}` },
@@ -98,7 +100,7 @@ const skills = [
               Contact
             </a>
             <a
-              href="/Bennit_Strack_CV.pdf"
+              :href="cvUrl"
               target="_blank"
               data-umami-event="Resume Download"
               class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-bg-surface border border-border-subtle text-text-primary text-sm font-semibold hover:bg-bg-surface-hover hover:border-border-hover hover:-translate-y-0.5 transition-all duration-300"
